@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="fr.foundation.modwizard.view.BuildingForm">
+  <grid id="27dc6" binding="buildingform" layout-manager="GridLayoutManager" row-count="11" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="866" height="499"/>
+    </constraints>
+    <properties>
+      <minimumSize width="600" height="364"/>
+    </properties>
+    <border type="bevel-raised"/>
+    <children>
+      <component id="52d85" class="javax.swing.JTextField" binding="name">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="f15fa" class="javax.swing.JLabel" binding="nameLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <labelFor value="52d85"/>
+          <text value="Name"/>
+        </properties>
+      </component>
+      <component id="c17f7" class="javax.swing.JLabel" binding="descLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <labelFor value="7147f"/>
+          <text value="Description"/>
+        </properties>
+      </component>
+      <component id="7147f" class="javax.swing.JTextField" binding="description">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="9975" class="javax.swing.JLabel" binding="orderIdLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <labelFor value="f9740"/>
+          <text value="OrderId"/>
+        </properties>
+      </component>
+      <component id="f9740" class="javax.swing.JTextField" binding="orderId">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="741a9" class="javax.swing.JLabel" binding="desirabilityLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <labelFor value="aa737"/>
+          <text value="Desirability"/>
+        </properties>
+      </component>
+      <component id="aa737" class="javax.swing.JComboBox" binding="desirabilityComboBox" custom-create="true">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="d963d" class="javax.swing.JCheckBox" binding="isManuallyUnlockedBox">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="IsManuallyUnlocked"/>
+        </properties>
+      </component>
+      <component id="2581b" class="javax.swing.JCheckBox" binding="isDestructibleBox">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="IsDestructible"/>
+        </properties>
+      </component>
+      <component id="79bd" class="javax.swing.JCheckBox" binding="isEditableBox">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="IsEditable"/>
+        </properties>
+      </component>
+      <component id="a9071" class="javax.swing.JCheckBox" binding="isHiddenBox">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="IsHidden"/>
+        </properties>
+      </component>
+      <component id="111fb" class="javax.swing.JCheckBox" binding="isClearTreesBox">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="IsClearTrees"/>
+        </properties>
+      </component>
+      <component id="f76ac" class="javax.swing.JButton" binding="nextButton">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Generate it !"/>
+        </properties>
+      </component>
+      <component id="ebb30" class="javax.swing.JLabel" binding="buildingPartSetListLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="List of BuildingPart"/>
+          <toolTipText value="Define a Set of BUILDING_PART"/>
+        </properties>
+      </component>
+      <component id="d256" class="javax.swing.JLabel" binding="BuildingModelLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <labelFor value="21aff"/>
+          <text value="PREFAB"/>
+        </properties>
+      </component>
+      <component id="21aff" class="javax.swing.JTextField" binding="buildingModel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="22101" class="javax.swing.JLabel" binding="villagerRequiredLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="VIllagerRequired"/>
+          <toolTipText value="Define a couple Villager / Quantity"/>
+        </properties>
+      </component>
+      <component id="d26e7" class="javax.swing.JLabel" binding="buildingTypeLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <labelFor value="587cb"/>
+          <text value="BuildingType"/>
+        </properties>
+      </component>
+      <component id="587cb" class="javax.swing.JComboBox" binding="buildingTypeComboBox" custom-create="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <grid id="7e89" binding="villagerRequiredPanel" custom-create="true" layout-manager="FormLayout">
+        <rowspec value="center:d:grow"/>
+        <colspec value="fill:d:grow"/>
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none">
+          <font/>
+          <title-color color="-4473925"/>
+        </border>
+        <children/>
+      </grid>
+      <grid id="ec2e0" binding="buildingpartListPanel" custom-create="true" layout-manager="FormLayout">
+        <rowspec value="center:d:grow"/>
+        <colspec value="fill:d:grow"/>
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none">
+          <font/>
+          <title-color color="-4473925"/>
+        </border>
+        <children/>
+      </grid>
+      <component id="46d37" class="javax.swing.JTextPane" binding="codePane" custom-create="true">
+        <constraints>
+          <grid row="0" column="2" row-span="11" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="50"/>
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4668202"/>
+          <text value=""/>
+        </properties>
+        <clientProperties>
+          <JEditorPane.honorDisplayProperties class="java.lang.Boolean" value="true"/>
+        </clientProperties>
+      </component>
+    </children>
+  </grid>
+</form>
