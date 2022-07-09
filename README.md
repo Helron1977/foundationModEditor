@@ -1,4 +1,4 @@
-# FoundationModEditor
+# FoundationModEditor  [![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com)
 A été conçu pour le jeu de simulation Foundation de l'éditeur Polymorph Games.
 
 A partir un fichier Snippet pour vsc donné pour l'autocomplétion du script lua necessaire à l'import d'assets
